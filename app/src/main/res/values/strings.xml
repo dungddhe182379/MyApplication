@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Facebook</string>
     <string name="greeting_message">xin chào bạn</string>
     <string name="language_change_text">English <font color='#FFFFFF'>• Change</font></string>
 </resources>
