@@ -10,8 +10,7 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        style="@style/FacebookLogo"
         android:layout_marginTop="92dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -20,92 +19,65 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        style="@style/LanguageChangeText"
         android:text="@string/language_change_text"
-        android:textColor="#CECECE"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <EditText
         android:id="@+id/editTextEmail"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
+        style="@style/LoginEditText"
         android:layout_marginTop="32dp"
-        android:layout_marginEnd="32dp"
         android:hint="Email or Phone"
         android:inputType="textEmailAddress"
-        android:backgroundTint="@color/edittext_tint_selector"
-        android:textColor="@android:color/white"
-        android:textColorHint="#CECECE"
-        android:textCursorDrawable="@null"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
         android:id="@+id/editTextPassword"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        style="@style/LoginEditText"
         android:layout_marginTop="16dp"
         android:hint="Password"
         android:inputType="textPassword"
-        android:backgroundTint="@color/edittext_tint_selector"
-        android:textColor="@android:color/white"
-        android:textColorHint="#CECECE"
-        android:textCursorDrawable="@null"
-        app:layout_constraintEnd_toEndOf="@+id/editTextEmail"
-        app:layout_constraintStart_toStartOf="@+id/editTextEmail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />
 
     <Button
         android:id="@+id/buttonLogin"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:backgroundTint="#4e69a2"
-        android:text="LOG IN"
-        android:textColor="#D0D0D0"
-        app:cornerRadius="0dp"
+        style="@style/LoginButton"
         app:layout_constraintEnd_toEndOf="@+id/editTextPassword"
         app:layout_constraintStart_toStartOf="@+id/editTextPassword"
         app:layout_constraintTop_toBottomOf="@+id/editTextPassword" />
 
     <TextView
         android:id="@+id/textViewSignUp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/LinkText"
         android:layout_marginBottom="16dp"
         android:text="Sign Up for Facebook"
-        android:textColor="@android:color/white"
         app:layout_constraintBottom_toTopOf="@+id/textViewForgotPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textViewForgotPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/LinkText"
         android:layout_marginBottom="56dp"
         android:text="Forgot Password?"
-        android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageViewHelp"
-        android:layout_width="24dp"
-        android:layout_height="24dp"
+        style="@style/HelpIcon"
         android:layout_marginEnd="40dp"
         app:layout_constraintBottom_toBottomOf="@+id/textViewForgotPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textViewForgotPassword"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/question_filled_svgrepo_com"
-        app:tint="#ffffff" />
+        app:srcCompat="@drawable/question_filled_svgrepo_com" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
