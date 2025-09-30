@@ -1,0 +1,46 @@
+<resources>
+    <style name="FacebookLogo">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+
+    <style name="LanguageChangeText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:textColor">#CECECE</item>
+    </style>
+
+    <style name="LoginEditText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">32dp</item>
+        <item name="android:layout_marginEnd">32dp</item>
+        <item name="android:backgroundTint">@color/edittext_tint_selector</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorHint">#CECECE</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+
+    <style name="LoginButton" >
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="backgroundTint">#4e69a2</item>
+        <item name="android:text">LOG IN</item>
+        <item name="android:textColor">#D0D0D0</item>
+        <item name="cornerRadius">0dp</item>
+    </style>
+
+    <style name="LinkText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="HelpIcon">
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="tint">#ffffff</item>
+    </style>
+</resources>
