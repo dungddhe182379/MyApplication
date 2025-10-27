@@ -43,11 +43,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void bindingAction() {
-        buttonLogin.setOnClickListener(this::onLoginClicked);
+        buttonLogin.setOnClickListener(this::onLoginClick);
     }
 
-    private void onLoginClicked(View view) {
-        String email = editTextEmail.getText().toString().trim();
+    private void onLoginClick(View view) {
+        String email = editTextEmail.getText().toString().toLowerCase().trim();
         String password = editTextPassword.getText().toString().trim();
 
         if (email.equals("admin") && password.equals("123456")) {
